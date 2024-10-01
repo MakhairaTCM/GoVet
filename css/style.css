@@ -9,9 +9,6 @@ img{
 }
 
 
-svg{
-    color: #33D5F0;
-}
 nav>ul{
     text-decoration: none;
     list-style-type: none;
@@ -40,10 +37,13 @@ li {
     
 }
 
+
+
 div#portefeuille {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 div#portefeuille ul {
