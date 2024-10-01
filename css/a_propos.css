@@ -1,0 +1,28 @@
+div.carte {
+   background-color: #33D5F0;
+    margin: 1%;
+    display: flex;
+    width: 48%;
+    border-radius: 10px;
+
+}
+
+img{
+    width:200px;
+    height:150px;
+    padding:10px;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+#cartes {
+    display: flex;
+    flex-wrap: wrap;
+}
+p{
+    text-align: justify;
+    margin-right: 18px;
+}
