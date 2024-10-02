@@ -116,6 +116,16 @@ section>header{
     align-items: center;
     /* text-decoration: none; */
 }
+
+section { 
+    display: flex;
+    flex-direction: column;
+}
+
+article h3, article p{
+    margin: 5px;
+}
+
 article{
     height: 200px;
 }
@@ -126,6 +136,30 @@ article>img{
     /* position: absolute; */
     z-index: 1;
 }
-article>h3{
-    position: absolute;
+
+article#un{
+    background-image: url("../images/fond article/1.jpeg");
+    
+}
+
+article#deux{
+    background-image: url("../images/fond article/2.jpeg");
+}
+
+article#trois{
+    background-image: url("../images/fond article/3.jpeg");
+}
+
+#un, #deux, #trois {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color : white; 
+    margin : 10px; 
+    border-radius: 10px;
 }
