@@ -1,7 +1,6 @@
-:root {
-    --nav-bg-color: #fcfcfc;
-    /* --white: #ffffff; */
-}
+
+@import url(/css/nav.css);
+@import url(/css/var.css);
 
 body{
     background-color: rgb(211, 210, 210);
