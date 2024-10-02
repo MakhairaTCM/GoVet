@@ -109,3 +109,23 @@ div#portefeuille ul {
     
 
 }
+
+section>header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* text-decoration: none; */
+}
+article{
+    height: 200px;
+}
+article>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* position: absolute; */
+    z-index: 1;
+}
+article>h3{
+    position: absolute;
+}
