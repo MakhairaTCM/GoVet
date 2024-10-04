@@ -1,0 +1,39 @@
+header {
+    background-image: url("../images/fond article/1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    align-items: flex-start; 
+    color : white; 
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border-radius: 3px;
+}
+
+div {
+    display: flex;
+    align-items: center;
+}
+
+img{
+    margin : 10px; 
+}
+
+section {
+    margin :10px;  
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+article {
+    margin : 20px; 
+}
