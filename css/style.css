@@ -93,6 +93,10 @@ section {
     flex-direction: column;
 }
 
+#articles {
+    width : 1000px;
+}
+
 article h3, article p{
     margin: 5px;
 }
