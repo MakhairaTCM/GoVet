@@ -5,7 +5,17 @@
 @import url(/css/nav.css);
 @import url(/css/var.css);
 
+body{
+    margin: 0;
+    background-color: var(--bg-body);
+}
+ul{
+    padding: 0;
+}
 
+main{
+    margin: 1%;
+}
 #portefeuille {
     display: flex;
     align-items: center;
@@ -48,7 +58,7 @@ div#portefeuille ul {
     text-decoration: none;
     color: black;
     background-color: var(--nav-bg-color);
-    width: 25%;
+    width: 18%;
     display: flex;
     justify-content: space-between;
     font-size: 0.7rem;
@@ -111,16 +121,16 @@ article#trois{
     background-image: url("../images/fond article/3.jpeg");
 }
 
-#un, #deux, #trois {
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 
 article {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     color : white; 
-    margin : 10px; 
+    /* margin : 10px;  */
+    margin-bottom: 10px;
     border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
