@@ -22,7 +22,6 @@ main{
     justify-content: center;
     box-shadow: 0px 4px 4px 0px #00000026;
     background-color: var(--nav-bg-color);
-    width: 40%;
     margin: auto;
     border-radius: 20px;
     
@@ -31,11 +30,12 @@ main{
 div#portefeuille ul {
     text-decoration: none;
     list-style-type: none;
+    text-align: center;
 }
 #portefeuille>a>img{
-    width: 50px;
-    height: 50px;
-    padding: 10px;
+    width: 35px;
+    height: 35px;
+    padding: 20px;
 
 }
 
@@ -77,7 +77,6 @@ div#portefeuille ul {
     width: 70%;
     height: 50px;
     text-align: center;
-    
 
 }
 
@@ -94,7 +93,14 @@ section {
 }
 
 #articles {
-    width : 1000px;
+    width : 1100px;
+    margin: auto;
+}
+
+#articles>header>h2 {
+    text-decoration: none;
+    color :#237E9E; 
+    font-size: 30px;
 }
 
 article h3, article p{
@@ -117,6 +123,27 @@ article#un{
     
 }
 
+article#un>a {
+    text-decoration: none;
+    color :white; 
+}
+
+article#un>a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#articles>header>a {
+    text-decoration: none;
+    color :#237E9E; 
+}
+
+#articles>header>a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
 article#deux{
     background-image: url("../images/fond article/2.jpeg");
 }
@@ -137,4 +164,5 @@ article {
     border-radius: 10px;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 10px;
 }
