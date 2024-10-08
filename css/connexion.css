@@ -3,6 +3,7 @@
 body{
     margin: 0;
     background-color: var(--bg-body);
+    overflow-x: hidden;
 }
 ul{
     padding: 0;
@@ -101,13 +102,18 @@ h1{
     color: var(--nav-bg-color);
     font-size: 6vw;
 }
+#seConnecter>main{
+    display: flex;
+    flex-direction: row;
+}
 form{
     display: flex;
     flex-direction: column;
+    width: 49%;
 }
 form>div{
     display: flex;
-    width: 40%;
+    width: 90%;
     flex-direction: column;
     margin-bottom: 15px;
 }
@@ -127,7 +133,66 @@ label{
 }
 input{
     padding: 10px;
+    padding: 15px;
     border-radius: 10px;
     border: 1px solid #C4C4C4;
     background-color: var(--nav-bg-color);
+    /* width: 100%; */
+}
+form>:nth-child(3)>input{
+    /* width: ; */
+    /* height: 40px; */
+    background-color: #237E9E;
+    color: var(--nav-bg-color);
+    width: fit-content;
+    padding: 15px;
+    margin: auto;
+    cursor: pointer;
+    /* vertical-align:middle; */
+}
+button>a>img{
+    /* height: 0.1%; */
+    width: 20px;
+    margin-right: 10px;
+}
+aside{
+    width: 49%;
+}
+aside>div{
+   display: flex;
+   flex-direction: column;
+     
+}
+aside>p{
+    text-align: center;
+    /* margin: auto; */
+    
+      
+}
+aside>div>button{
+   border: 0;
+   background: none;
+    
+}
+aside>div>button>a{
+    width: 40%;
+    display: flex;
+    border: 0;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #237E9E;
+    padding: 15px;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--nav-bg-color);
+    margin-bottom: 10px;
+
+}
+aside>div>:nth-child(2)>a{
+   
+    background-color: #ffffff;
+    box-shadow: 0px 4px 20px 0px #0e060650;
+    color: black;
+    
+
 }
