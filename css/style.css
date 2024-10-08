@@ -2,8 +2,8 @@
     width: 30px; 
 } */
 
-@import url(/css/nav.css);
-@import url(/css/var.css);
+@import url(../css/nav.css);
+@import url(../css/var.css);
 
 body{
     margin: 0;
