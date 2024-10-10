@@ -9,8 +9,14 @@ ul{
     padding: 0;
 }
 
-main{
+#page1>main{
     margin: 1%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+a{
+    text-decoration: none;
 }
 
 #page1>header{
@@ -31,9 +37,7 @@ main{
 }
 
 main{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+    
 }
 #page1>main>:nth-child(2){
     display: flex;
@@ -90,30 +94,56 @@ main{
 
 /* page Connexion */
 
-svg{
+#bienvenue{
     width: 50%;
     margin-left: 50%;
+    /* height: 300px; */
 }
 h1{
-    margin-top: -15%;
-    margin-bottom: 20%;
+    margin-top: -30%;
+    margin-bottom: 15%;
     text-align: end;
     margin-right: 10%;
     color: var(--nav-bg-color);
     font-size: 6vw;
 }
-#seConnecter>main{
+#seConnecter>main, #sInscire>main{
     display: flex;
     flex-direction: row;
 }
+header>nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5%;
+    padding-bottom: 0;
+
+}
+header>nav>a{
+   
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+nav>a>svg{
+    width: 5%;
+    justify-content: center;
+}
+nav>img{
+    width: 4%;
+    margin: 0;
+}
+
+
 form{
     display: flex;
     flex-direction: column;
     width: 49%;
+    margin-left: auto;
 }
 form>div{
     display: flex;
-    width: 90%;
+    /* width: 100%; */
     flex-direction: column;
     margin-bottom: 15px;
 }
@@ -139,7 +169,7 @@ input{
     background-color: var(--nav-bg-color);
     /* width: 100%; */
 }
-form>:nth-child(3)>input{
+#seConnecter>main>form>:nth-child(3)>input{
     /* width: ; */
     /* height: 40px; */
     background-color: #237E9E;
@@ -185,7 +215,7 @@ aside>div>button>a{
     justify-content: center;
     text-decoration: none;
     color: var(--nav-bg-color);
-    margin-bottom: 10px;
+    margin-top: 10px;
 
 }
 aside>div>:nth-child(2)>a{
@@ -195,4 +225,14 @@ aside>div>:nth-child(2)>a{
     color: black;
     
 
+}
+
+/* S'inscrire */
+
+#sInscrire>main{
+    display: flex;
+    flex-direction: row;
+}
+#sInscrire>main>form{
+    margin-top: -10%;
 }
