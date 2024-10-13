@@ -1,5 +1,5 @@
 
-nav>ul{
+body>nav>ul{
     text-decoration: none;
     list-style-type: none;
     padding: 0;
@@ -7,7 +7,7 @@ nav>ul{
     justify-content: space-between;
     align-items: center;
 }
-nav{
+body>nav{
     display: flex;
     background-color: var(--nav-bg-color);
     box-shadow: 0px 4px 30px 0px #0000000F;
@@ -15,14 +15,16 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 3vh;
+    padding: 0.5%;
 
 }
-nav>div{
+body>nav>div{
     display: flex;
     align-items: center;
+    margin-right: 10px;
 
 }
-nav>div>a>img{
+body>nav>div>a>img{
     width: 50px;
     height: 50px;
     padding: 10px;
@@ -31,4 +33,14 @@ nav>div>a>img{
 li { 
     margin: 20px;
     
+}
+
+@media (max-width: 768px) {
+    body>nav>ul{
+        display: none;
+    }
+    body>nav{
+        padding: 2vw;
+
+    }
 }

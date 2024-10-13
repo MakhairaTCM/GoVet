@@ -1,5 +1,6 @@
 @import url(../css/nav.css);
 @import url(../css/var.css);
+@import url(../css/navMobile.css);
 
 body{
     margin: 0;
@@ -213,6 +214,9 @@ article {
         margin-bottom: 2%;
 
     }
+    #portefeuille{
+        width: 95%;
+    }
     .cardHome{
         width: 17%;
         font-size: 0.5rem;
@@ -221,5 +225,8 @@ article {
     }
     article{
         height: 100px;
+    }
+    #articles{
+        margin-bottom: 90px;
     }
 }

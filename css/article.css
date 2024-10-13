@@ -1,3 +1,6 @@
+@import url(../css/var.css);
+@import url(../css/navMobile.css);
+
 header {
     background-image: url("../images/fond article/1.jpeg");
     background-repeat: no-repeat;

@@ -1,0 +1,47 @@
+.mobile-navbar {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--nav-bg-color);
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+    border-radius: 0;
+    color: #33D5F0;
+    height: 90px;
+}
+
+.mobile-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.mobile-navbar ul li {
+    /* flex: 1; */
+}
+
+.mobile-navbar ul li a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 0;
+    color:#C0C0C0;
+    text-decoration: none;
+    font-size: 14px;
+}
+.mobile-navbar ul li a svg{
+    margin: auto;
+    margin-bottom: 3%;
+}
+/* Media query pour afficher la barre uniquement sur les mobiles */
+@media (max-width: 768px) {
+    .mobile-navbar {
+        display: flex;
+    }
+}

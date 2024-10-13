@@ -1,7 +1,7 @@
 
 @import url(../css/nav.css);
 @import url(../css/var.css);
-
+@import url(../css/navMobile.css);
 body{
     background-color: var(--bg-body);
     margin: 0;
@@ -71,3 +71,31 @@ nav>div{
     display: flex;
 
 }
+
+@media screen and (max-width : 768px){
+    #cartes{
+        flex-direction: column;
+    }
+   .carte{
+        width: 100%;
+        flex-direction: column;
+
+       
+   }
+   .carte> img{
+        margin: auto;
+    
+    }
+    .carte> div>h2{
+        text-align: center;
+    
+    }
+    .carte p{
+        text-align: center;
+        margin-left: 1%;
+        margin-right: 1%;
+
+    
+    }
+}
+/* Style pour la barre de navigation mobile (invisible par défaut) */
