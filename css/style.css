@@ -12,7 +12,10 @@ body{
 ul{
     padding: 0;
 }
-
+h1{
+    font-family: "ABeeZee";
+    color:var(--blue-h1);
+}
 main{
     margin: 1%;
 }
@@ -131,8 +134,14 @@ section {
 
 article h3, article p{
     margin: 5px;
+    font-family: "ABeeZee";
+    font-weight: 400;
 }
-
+article p{
+    font-family: "inter";
+    font-weight: 500;
+    font-size: 0.8rem;
+}
 article{
     height: 200px;
 }
@@ -162,6 +171,8 @@ article#un>a:hover {
 #articles>header>a {
     text-decoration: none;
     color :#237E9E; 
+    margin-top: auto;
+    margin-bottom: 1.0%;
 }
 
 #articles>header>a:hover {
