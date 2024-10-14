@@ -2,14 +2,26 @@
 @import url(../css/var.css);
 @import url(../css/navMobile.css);
 
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
+
 body{
     margin: 0;
     background-color: var(--bg-body);
+    font-family: "MontSerrat";
 }
 ul{
     padding: 0;
 }
-
+h1{
+    color: var(--blue-h1);
+}
+h2,h3{
+    font-family: "ABeeZee";
+}
+h3{
+    color: var(--blue-h1);
+}
 main{
     margin: 1%;
 }
@@ -125,21 +137,27 @@ a {
     margin: auto;
 }
 
-
+.cardSante h4{
+    font-family: "ABeeZee";
+}
 @media screen and (max-width : 768px){
     #card{
         width: 97%;
         margin: auto;
-        font-size: 0.8rem;
+        
 
     }
     #card h4{
-        margin-bottom: 1%;
+        margin-bottom: 2%;
+        font-size: 1rem;
+        /* font-size: 0.8rem; */
+        font-weight: 700;
 
     }
     #card li, p{
         margin-bottom: 0.5%;
-        margin-top: 6%;
+        margin-top: 3%;
+        font-size: 0.8rem
 
     }
     main{

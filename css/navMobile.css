@@ -10,6 +10,7 @@
     border-radius: 0;
     color: #33D5F0;
     height: 90px;
+    font-size: 0.7rem;
 }
 
 .mobile-navbar ul {
@@ -23,7 +24,7 @@
 }
 
 .mobile-navbar ul li {
-    /* flex: 1; */
+   margin: auto;
 }
 
 .mobile-navbar ul li a {
@@ -34,6 +35,7 @@
     color:#C0C0C0;
     text-decoration: none;
     font-size: 14px;
+    margin: auto;
 }
 .mobile-navbar ul li a svg{
     margin: auto;
