@@ -40,6 +40,7 @@
 .mobile-navbar ul li a svg{
     margin: auto;
     margin-bottom: 3%;
+    width: 30px;
 }
 /* Media query pour afficher la barre uniquement sur les mobiles */
 @media (max-width: 768px) {

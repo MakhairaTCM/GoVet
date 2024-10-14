@@ -174,7 +174,9 @@ article#un>a:hover {
     margin-top: auto;
     margin-bottom: 1.0%;
 }
-
+#articles h3 {
+    width: 70%;
+}
 #articles>header>a:hover {
     cursor: pointer;
     text-decoration: underline;
@@ -217,7 +219,10 @@ article {
     border-radius: 10px;
     /* margin: auto */
 }
-
+#currentPage a,#currentPage path{
+    color: var(--blue-h1);
+    stroke: var(--blue-h1);
+}
 @media screen and (max-width : 768px){
 
     #containerCard>:nth-child(1),#containerCard>:nth-child(2){

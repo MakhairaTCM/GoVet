@@ -140,6 +140,10 @@ a {
 .cardSante h4{
     font-family: "ABeeZee";
 }
+#currentPage a,#currentPage path{
+    color: var(--blue-h1);
+    stroke: var(--blue-h1);
+}
 @media screen and (max-width : 768px){
     #card{
         width: 97%;
