@@ -84,6 +84,7 @@ a {
     border: none;
     border-radius: 8px;
     padding : 5px 15px;
+    font-size: 0.8rem;
 }
 
 #btnModifider>a{
@@ -115,15 +116,7 @@ a {
     width: 300px;
 }
 
-.cardSante> div > button {
-    background: #237E9E;
-    border: none;
-    border-radius: 8px;
-    padding : 3px 25px;
-    cursor: pointer;
-    
-    
-}
+
 
 .cardSante>div{
     padding: 10px;
