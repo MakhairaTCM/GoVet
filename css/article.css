@@ -5,6 +5,7 @@ header {
     background-image: url("../images/fond article/1.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 250px;
     display: flex;
     align-items: flex-start; 
@@ -53,4 +54,10 @@ p{
 
 article {
     margin : 20px; 
+}
+@media screen and (max-width : 768px){
+    
+    header{
+        height: 290px;
+    }
 }

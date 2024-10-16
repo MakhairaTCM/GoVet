@@ -140,7 +140,7 @@ article h3, article p{
 article p{
     font-family: "inter";
     font-weight: 500;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 article{
     height: 200px;
@@ -234,17 +234,26 @@ article {
         margin-bottom: 2%;
 
     }
+    .cardHome>h2{
+        font-size: 0.75rem;
+        width: 100%;
+    }
     #portefeuille{
         width: 95%;
     }
     .cardHome{
-        width: 17%;
+        width: 18%;
         font-size: 0.5rem;
         margin: 1%;
+        padding: 7px;
         /* flex-direction: column-reverse; */
     }
     article{
         height: 100px;
+    }
+    article p{
+        font-size: 0.8rem;
+        
     }
     #articles{
         margin-bottom: 90px;

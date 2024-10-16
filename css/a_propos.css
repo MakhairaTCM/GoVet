@@ -44,6 +44,10 @@ aside>img{
     box-shadow: 0px 4px 30px 0px #0000000F;
 
 }
+nav a{
+    display: flex;
+    width: 100%;
+}
 .carte>img{
     width: 150px;
     height: 150px;
@@ -92,6 +96,10 @@ nav>div{
     color
 } */
 #currentPage>a{
+    color: var(--blue-h1);
+}
+
+i{
     color: var(--blue-h1);
 }
 @media screen and (max-width : 768px){
