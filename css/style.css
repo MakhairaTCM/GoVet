@@ -154,7 +154,7 @@ article>img{
 }
 
 article#un{
-    background-image: url("../images/fond article/1.jpeg");
+    background-image: url("../images/fond article/1.webp");
     
 }
 
@@ -187,11 +187,11 @@ article#un>a:hover {
 
 
 article#deux{
-    background-image: url("../images/fond article/2.jpeg");
+    background-image: url("../images/fond article/2.webp");
 }
 
 article#trois{
-    background-image: url("../images/fond article/3.jpeg");
+    background-image: url("../images/fond article/3.webp");
 }
 
 
