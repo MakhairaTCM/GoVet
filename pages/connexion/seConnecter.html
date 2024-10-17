@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
 <body id="seConnecter">
     <header>
         <nav>
-            <a href="./connexionAccueil.html">
+            <a href="../../index.html">
                 <svg aria-label="fleche retour" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M7 13L1 7L7 1" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
@@ -33,17 +33,17 @@
     </header>
     
     <main>
-        <form action="submit" method="post" class="form">
+        <form action="verification.php" method="post" class="form">
             <div >
               <label for="email">Email/Numéro de téléphone</label>
               <input id="email" type="text" name="email"  placeholder="Entrez votre email ou numéro de téléphone" >
             </div>
             <div >
               <label for="password">Mot de passe </label>
-              <input id="password" type="password" name="password" placeholder="Entrez votre mot de passe" required >
+              <input id="password" type="password" name="password" placeholder="Entrez votre mot de passe">
             </div>
             <div class="btnSeConnecter">
-              <input type="submit" value="Se connecter" >
+                <input type="submit" value="Se connecter">
             </div>
         </form>
         <aside>
